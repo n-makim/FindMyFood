@@ -5,7 +5,7 @@ import Card from "./Card";
 
 import "../styles/Deck.css";
 
-const cards = [1, 2, 3, 4];
+const cards = [1, 2, 3, 4, 5];
 
 const objs = [
   {
@@ -42,10 +42,20 @@ const objs = [
       "https://images.unsplash.com/photo-1532635270-c09dac425ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
     ],
     name: "Jane",
-    age: 22,
+    age: "$$",
     distance: "2 miles away",
     text:
       "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
+  },
+  {
+    pics: [
+      "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+    ],
+    name: "Zingerman's Delicatessen",
+    age: "$$$",
+    distance: "x miles away",
+    text:
+      "Reviews: 5/5 Stars!"
   }
 ];
 
