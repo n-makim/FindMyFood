@@ -10,52 +10,50 @@ const cards = [1, 2, 3, 4, 5];
 const objs = [
   {
     pics: [
-      "https://images.unsplash.com/photo-1522263842439-347f062b8475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-    ],
-    name: "Chloe",
-    age: 18,
-    distance: "1 mile away",
-    text: "The C and the L are silent."
+"https://s3-media0.fl.yelpcdn.com/bphoto/Kax_19qwZS5tAHhxs5WUsQ/o.jpg"    ],
+    name: "Isalita",
+    age: "$$",
+    distance: "0.7 miles away",
+    text: "Mexican standards served in a rustic space with painted-brick walls & a festive streetside patio."
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1535378719329-f0a8b9a42152?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-    ],
-    name: "Sarah",
-    age: 24,
-    distance: "5 miles away",
+"https://media-cdn.tripadvisor.com/media/photo-s/13/d5/67/50/ramen.jpg"    ],
+    name: "Tomukun Noodle Bar",
+    age: "$$",
+    distance: "1.3 miles away",
     text:
-      "It's tough being a single mom. Or so I'm told, I wouldn't know; I don't have kids."
+      "Upmarket noodle house dishes up udon, ramen & Pan-Asian mains amid a rich wood interior."
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-    ],
-    name: "Savannah",
-    age: 29,
+      "https://www.piperpartners.com/wp/wp-content/uploads/2014/11/13888662292_08b713c255_b.jpg", 
+      "https://fastly.4sqi.net/img/general/600x600/1853578_lAQ5RpWr01ca3wfev9z74WwoYGryQWXKpU80JamBA7U.jpg"],
+    name: "Neopapalis",
+    age: "$",
     distance: "3 miles away",
-    text: "A little known fact is that I cover about 40% of Africa."
+    text: "Sleek spot for fired-to-order Neapolitan pizzas with fully customizable toppings."
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
-      "https://images.unsplash.com/photo-1532635270-c09dac425ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+      "https://advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/71f1072188/width2048/d69_117.jpeg", 
+      "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2019/10/eaa.BOAA_.Fritas0015.jpg?fit=720%2C480&ssl=1"
     ],
-    name: "Jane",
+    name: "Frita Batidos",
     age: "$$",
     distance: "2 miles away",
     text:
-      "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I have a knife."
+      "Stark white space with picnic table seating serves colorful cuban street food & tropical cocktails."
   },
   {
     pics: [
-      "https://images.unsplash.com/photo-1514924801778-1db0aba75e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+      "https://www.zingermanscreamery.com/app/uploads/2019/09/Screen-Shot-2019-09-05-at-5.57.54-PM.png"
     ],
-    name: "Zingerman's Delicatessen",
-    age: "$$$",
-    distance: "x miles away",
+    name: "Zingerman's Deli",
+    age: "$$",
+    distance: "2.7 miles away",
     text:
-      "Reviews: 5/5 Stars!"
+      "Locals line up for generous deli sandwiches at this funky, longtime market with specialty groceries."
   }
 ];
 
