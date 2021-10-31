@@ -98,7 +98,11 @@ function Deck() {
         const isGone = gone.has(index);
 
         const x = isGone ? (200 + window.innerWidth) * dir : down ? xDelta : 0;
-
+        const midpoint = window.innerWidth / 2;
+        if(x > midpoint){
+          //console.error("righ swipe\n");
+          // right swipe? link to another page with the info and website?
+        }
         const rot = xDelta / 100 + (isGone ? dir * 10 * velocity : 0);
 
         const scale = down ? 1.1 : 1;
